@@ -17,6 +17,7 @@ const server = express();
 const PORT = 3000;
 
 server.use(cors());
+
 const serviceAccount = {
     type: process.env.TYPE,
     project_id: process.env.PROJECT_ID,
